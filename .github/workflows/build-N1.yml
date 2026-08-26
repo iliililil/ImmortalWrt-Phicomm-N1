@@ -155,13 +155,15 @@ on:
       plugins:
         description: '集成插件组合'
         required: true
-        default: 'daede + iStore'
+        default: 'daede + iStore + Docker'
         type: choice
         options:
-          - 'daede'
+          - 'daed'
           - 'iStore'
-          - 'daede + iStore'
-          - 'daede + iStore + Docker'
+          - 'daed + iStore'
+          - 'daed + Docker'
+          - 'iStore + Docker'
+          - 'daed + iStore + Docker'
           - 'None'
 
       rootfs_size:
