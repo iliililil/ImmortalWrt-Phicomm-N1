@@ -8,7 +8,7 @@ Fork 仓库 → Actions 手动触发 → 下载 Release 产物刷入。
 ## 主要特性
 - 声明式构建，5 分钟出固件
 - 旁路由优化：关闭 DHCP，完整IPv6支持，精简无线/USB 驱动
-- 预装iStore、quickfile文件管理器、晶晨宝盒、Argon 主题
+- 预装daed、iStore、quickfile文件管理器、晶晨宝盒、Argon 主题
 - 编译后自动诊断固件完整性
   
 ## 🙏 致谢
