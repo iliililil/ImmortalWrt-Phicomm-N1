@@ -17,8 +17,8 @@ echo "$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S') - 🚀 开始构建固件...
 BASE_PACKAGES="curl ca-bundle libustream-openssl openssh-sftp-server unzip coreutils-nohup"
 BASE_PACKAGES="$BASE_PACKAGES luci-mod-system luci-i18n-firewall-zh-cn luci-i18n-package-manager-zh-cn"
 BASE_PACKAGES="$BASE_PACKAGES luci-theme-argon luci-app-argon-config luci-i18n-argon-config-zh-cn"
-BASE_PACKAGES="$BASE_PACKAGES luci-app-aria2 aria2 luci-i18n-aria2-zh-cn"
-BASE_PACKAGES="$BASE_PACKAGES luci-app-dufs luci-i18n-dufs-zh-cn"
+# BASE_PACKAGES="$BASE_PACKAGES luci-app-aria2 aria2 luci-i18n-aria2-zh-cn"
+# BASE_PACKAGES="$BASE_PACKAGES luci-app-dufs luci-i18n-dufs-zh-cn"
 
 BUILD_PACKAGES="$BASE_PACKAGES"
 
