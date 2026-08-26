@@ -37,7 +37,7 @@ add_plugin_group() {
 # ====================== 第三方插件注册 ======================
 # 晶晨宝盒（写入EMMC/内核管理 必备）
 add_plugin_group "ophub/luci-app-amlogic" "luci-app-amlogic luci-i18n-amlogic-zh-cn"
-add_plugin_group "iliililil/CloudRunFilesBuilder/quickfile" "quickfile.run"
+add_plugin_group "iliililil/CloudRunFilesBuilder/quickfile" "24-quickfile.run"
 
 # iStore 应用商店
 case "$PLUGINS" in
@@ -51,7 +51,7 @@ esac
 case "$PLUGINS" in
     *Clashoo*)
         add_plugin_group "iliililil/CloudRunFilesBuilder#openwrt-daede" "openwrt-daede.run"
-        echo "✅ 已选择 Clashoo 组件"
+        echo "✅ 已选择 daede 组件"
         ;;
 esac
 
