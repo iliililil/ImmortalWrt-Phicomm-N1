@@ -155,7 +155,7 @@ on:
       plugins:
         description: '集成插件组合'
         required: true
-        default: 'daede + iStore + Docker'
+        default: 'daed + iStore + Docker'
         type: choice
         options:
           - 'daed'
