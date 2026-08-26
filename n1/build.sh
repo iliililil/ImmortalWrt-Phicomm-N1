@@ -74,7 +74,7 @@ if [ -f "./packages/.extracted_pkgs" ]; then
 fi
 
 # ====================== 构建固件 ======================
-ROOTFS_PARTSIZE="${ROOTFS_PARTSIZE:-2048}"
+ROOTFS_PARTSIZE="${ROOTFS_PARTSIZE:-1024}"
 make image PROFILE="${PROFILE:-generic}" PACKAGES="$BUILD_PACKAGES" FILES="/home/build/immortalwrt/files" \
 ROOTFS_PARTSIZE="$ROOTFS_PARTSIZE" DISABLED_SERVICES="$DISABLED_SERVICES"
 echo "$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S') - 🎉 构建完成，等待后续清理..."
