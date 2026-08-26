@@ -49,7 +49,7 @@ esac
 
 # daede 代理
 case "$PLUGINS" in
-    *Clashoo*)
+    *daede*)
         add_plugin_group "iliililil/CloudRunFilesBuilder#openwrt-daede" "openwrt-daede.run"
         echo "✅ 已选择 daede 组件"
         ;;
