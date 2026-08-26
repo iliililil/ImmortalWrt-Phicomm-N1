@@ -155,19 +155,19 @@ on:
       plugins:
         description: '集成插件组合'
         required: true
-        default: 'Clashoo + iStore'
+        default: 'daede + iStore'
         type: choice
         options:
-          - 'Clashoo + iStore'
-          - 'Clashoo'
+          - 'daede'
           - 'iStore'
-          - 'Clashoo + iStore + Docker'
+          - 'daede + iStore'
+          - 'daede + iStore + Docker'
           - 'None'
 
       rootfs_size:
         description: '软件包分区大小（MB）'
         required: true
-        default: '1024'
+        default: '2048'
         type: string
 
       builder_name:
