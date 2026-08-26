@@ -9,7 +9,7 @@ DOWNLOAD_PACKAGES=""
 # 纯包名，给 make image 用
 BUILD_PACKAGES=""      
 # 旁路由禁用 DHCPv6
-# DISABLED_SERVICES="odhcpd odhcp6c"  
+DISABLED_SERVICES="odhcpd odhcp6c"  
 
 echo "$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S') - 🚀 开始构建固件..."
 
