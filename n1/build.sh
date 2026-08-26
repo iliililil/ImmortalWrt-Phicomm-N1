@@ -38,7 +38,7 @@ add_plugin_group() {
 # 晶晨宝盒（写入EMMC/内核管理 必备）
 add_plugin_group "ophub/luci-app-amlogic" "luci-app-amlogic luci-i18n-amlogic-zh-cn"
 add_plugin_group "iliililil/CloudRunFilesBuilder#quickfile" "quickfile.run"
-add_plugin_group "Zerogiven-OpenWRT-Packages/luci-app-podman luci-app-podman" "luci-app-podman_2.3.4-r1_all_24.10"
+add_plugin_group "iliililil/CloudRunFilesBuilder#luci-app-podman" "luci-app-podman"
 
 
 # iStore 应用商店
