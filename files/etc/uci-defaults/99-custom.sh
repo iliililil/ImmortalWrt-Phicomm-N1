@@ -27,14 +27,6 @@ uci delete network.lan.gateway
 uci delete network.lan.dns
 uci commit network
 
-# 添加IPv6 支持
-config interface 'lan6'
-	option proto 'dhcpv6'
-	option device '@lan'
-	option reqaddress 'none'
-	option reqprefix 'auto'
-	option norelease '1'
-
 # 关闭本机 DHCP 服务
 uci set dhcp.lan.ignore='1'
 uci set dhcp.wan.ignore='1'
