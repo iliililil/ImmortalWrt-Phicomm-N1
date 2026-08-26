@@ -48,11 +48,11 @@ case "$PLUGINS" in
         ;;
 esac
 
-# daede 代理
+# daed 代理
 case "$PLUGINS" in
     *daede*)
-        add_plugin_group "iliililil/CloudRunFilesBuilder#daede" "daede.run"
-        echo "✅ 已选择 daede 组件"
+        add_plugin_group "wkccd/luci-app-daed-runfiles#daed" "luci-app-daed.run"
+        echo "✅ 已选择 daed 组件"
         ;;
 esac
 
