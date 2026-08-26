@@ -51,7 +51,7 @@ esac
 # daed 代理
 case "$PLUGINS" in
     *daed*)
-        add_plugin_group "iliililil/CloudRunFilesBuilder#daed" "daed.run"
+        add_plugin_group "iliililil/CloudRunFilesBuilder#daede" "daede.run"
         echo "✅ 已选择 daed 组件"
         ;;
 esac
