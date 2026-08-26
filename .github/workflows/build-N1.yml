@@ -167,7 +167,7 @@ on:
       rootfs_size:
         description: '软件包分区大小（MB）'
         required: true
-        default: '2048'
+        default: '1024'
         type: string
 
       builder_name:
