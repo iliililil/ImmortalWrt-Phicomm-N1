@@ -50,7 +50,7 @@ esac
 
 # daed 代理
 case "$PLUGINS" in
-    *daede*)
+    *daed*)
         add_plugin_group "wkccd/luci-app-daed-runfiles#daed" "luci-app-daed.run"
         echo "✅ 已选择 daed 组件"
         ;;
